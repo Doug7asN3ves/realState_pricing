@@ -8,4 +8,6 @@
 
 ### Os pacotes que devem ser instalado estão especificados dentro do proprio código, porém uma melhoria seria criar um arquivo separado que especificasse as bibliotecas e as respectivas versões para rodar o modelo
 
-### Para melhor organização do modelo o ideal seria entregar o modelo utilizando o "Kedro", onde deixaria as informações melhor dispostas e melhor organizadas, porém demandaria mais tempo. Considerando isso, uma primeira versão foi feita desta maneira mais simples.
+### Para melhor organização do modelo o ideal seria entregar o modelo utilizando o "Kedro", onde deixaria as informações melhor dispostas e melhor organizadas, porém demandaria mais tempo. Considerando isso, uma primeira versão foi feita desta maneira mais simples
+
+### Uma outra versão do modelo foi também considerada, onde seriam adicionados fatores econômicos (considerando realidade dos EUA), como mortgage rate, inflation e real state vacancy para gerar um modelo auxiliar que calcularia o quanto o preço de publicação de uma propriedade deveria ser acressido ou descontado dado estas taxas. Porém isso trouxe complexidade e mais erros para o modelo final, entao foi descartada estra idéia
